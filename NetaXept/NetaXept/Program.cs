@@ -16,7 +16,11 @@ namespace NetaXept
         {
             BuildWebHost(args).Run();
         }
-
+        /// <summary>
+        /// There is the solution problem 
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
